@@ -1,0 +1,81 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background: #0b63a5;
+  color: white;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+nav {
+  margin-top: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul li a {
+  color: #0b63a5;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #eee;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+article {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.2rem;
+  }
+  nav a {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
